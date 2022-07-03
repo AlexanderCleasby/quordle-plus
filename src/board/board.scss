@@ -1,0 +1,46 @@
+.curent-word {
+  // width: 100%;
+  // display: flex;
+}
+
+.board {
+  background-color: #5f5f5f;
+  flex-direction: column;
+  // display: flex;
+  margin: 5px;
+  flex: 1 1 auto;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+}
+
+.blank-row {
+  height: 20px;
+  margin-bottom: 3px;
+  background-color: #878787;
+}
+
+.letter-block {
+  width: 20%;
+  height: 30px;
+  background-color: #c5c5c5;
+  border-radius: 2px;
+  margin: 1px;
+  justify-content: center;
+  display: inline-flex;
+  align-self: center;
+}
+
+.match {
+  background-color: yellow;
+}
+
+.exact-match {
+  background-color: greenyellow;
+}
+
+.not-word {
+  color: red;
+}
